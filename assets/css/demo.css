@@ -6,7 +6,9 @@
     z-index: 2;
 }
 
-
+#map{
+    position:relative;
+}
 
 .fixed-plugin li>a,
 .fixed-plugin .badge {
