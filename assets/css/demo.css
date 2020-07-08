@@ -1,39 +1,4 @@
-.tim-row {
-    margin-bottom: 20px;
-}
 
-.tim-white-buttons {
-    background-color: #777777;
-}
-
-.typography-line {
-    padding-left: 15%;
-    margin-bottom: 35px;
-    position: relative;
-    display: block;
-    width: 100%;
-}
-
-.typography-line span {
-    bottom: 10px;
-    color: #9A9A9A;
-    display: block;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 13px;
-    left: 5px;
-    position: absolute;
-    width: 260px;
-    text-transform: none;
-}
-
-.tim-row {
-    padding-top: 60px;
-}
-
-.tim-row h3 {
-    margin-top: 0;
-}
 
 #navbar-full .navbar {
     border-radius: 0 !important;
