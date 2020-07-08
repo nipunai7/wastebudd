@@ -11,8 +11,8 @@
     <title>Waste Management System</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
         
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="../assets/css/light-bootstrap-dashboard.css?v=2.0.0 " rel="stylesheet" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/light-bootstrap-dashboard.css?v=2.0.0 " rel="stylesheet" />
     
 </head>
 
@@ -208,14 +208,14 @@
             
 </body>
 
-<script src="../assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
-<script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
-<script src="../assets/js/core/bootstrap.min.js" type="text/javascript"></script>
-<script src="../assets/js/plugins/bootstrap-switch.js"></script>
-<script src="../assets/js/plugins/chartist.min.js"></script>
-<script src="../assets/js/plugins/bootstrap-notify.js"></script>
-<script src="../assets/js/light-bootstrap-dashboard.js?v=2.0.0 " type="text/javascript"></script>
-<script src="../assets/js/demo.js"></script>
+<script src="assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
+<script src="assets/js/core/popper.min.js" type="text/javascript"></script>
+<script src="assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/js/plugins/bootstrap-switch.js"></script>
+<script src="assets/js/plugins/chartist.min.js"></script>
+<script src="assets/js/plugins/bootstrap-notify.js"></script>
+<script src="assets/js/light-bootstrap-dashboard.js?v=2.0.0 " type="text/javascript"></script>
+<script src="assets/js/demo.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {
         
