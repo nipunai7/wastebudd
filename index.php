@@ -29,26 +29,26 @@
                 </div>
                 <ul class="nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="dashboard.html">
+                        <a class="nav-link" href="dashboard.php">
                             <i class="nc-icon nc-chart-pie-35"></i>
                             <p>Dashboard</p>
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link" href="./user.html">
+                        <a class="nav-link" href="./user.php">
                             <i class="nc-icon nc-circle-09"></i>
                             <p>My Account</p>
                         </a>
                     </li>
                     
                     <li>
-                        <a class="nav-link" href="./maps.html">
+                        <a class="nav-link" href="./maps.php">
                             <i class="nc-icon nc-pin-3"></i>
                             <p>Location</p>
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link" href="./notifications.html">
+                        <a class="nav-link" href="./notifications.php">
                             <i class="nc-icon nc-bell-55"></i>
                             <p>Notifications</p>
                         </a>
@@ -104,7 +104,7 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="user.html">
+                                <a class="nav-link" href="user.php">
                                     <span class="no-icon"> 
                                         <button class="btn-outline-success btn-sm">Sign Up</button></span>
                                 </a>

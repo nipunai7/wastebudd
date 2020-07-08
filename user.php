@@ -10,9 +10,9 @@
     
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="../assets/css/light-bootstrap-dashboard.css?v=2.0.0 " rel="stylesheet" />
-    <link href="../assets/css/demo.css" rel="stylesheet" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/light-bootstrap-dashboard.css?v=2.0.0 " rel="stylesheet" />
+    <link href="assets/css/demo.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -27,13 +27,13 @@
                 </div>
                 <ul class="nav">
                     <li>
-                        <a class="nav-link" href="dashboard.html">
+                        <a class="nav-link" href="dashboard.php">
                             <i class="nc-icon nc-chart-pie-35"></i>
                             <p>Dashboard</p>
                         </a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="./user.html">
+                        <a class="nav-link" href="./user.php">
                             <i class="nc-icon nc-circle-09"></i>
                             <p>My Account</p>
                         </a>
@@ -60,7 +60,7 @@
         <div class="main-panel">
                <nav class="navbar navbar-expand-lg bg-light " color-on-scroll="500">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="dashboard.html"> Dashboard </a>
+                    <a class="navbar-brand" href="dashboard.php"> Dashboard </a>
                     <button href="" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-bar burger-lines"></span>
                         <span class="navbar-toggler-bar burger-lines"></span>
@@ -103,7 +103,7 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="user.html">
+                                <a class="nav-link" href="user.php">
                                     <span class="no-icon"> 
                                         <button class="btn-outline-success btn-sm">Sign Up</button></span>
                                 </a>
@@ -221,14 +221,14 @@
   
 </body>
 
-<script src="../assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
-<script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
-<script src="../assets/js/core/bootstrap.min.js" type="text/javascript"></script>
-<script src="../assets/js/plugins/bootstrap-switch.js"></script>
-<script src="../assets/js/plugins/chartist.min.js"></script>
-<script src="../assets/js/plugins/bootstrap-notify.js"></script>
-<script src="../assets/js/light-bootstrap-dashboard.js?v=2.0.0 " type="text/javascript"></script>
-<script src="../assets/js/demo.js"></script>
+<script src="assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
+<script src="assets/js/core/popper.min.js" type="text/javascript"></script>
+<script src="assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/js/plugins/bootstrap-switch.js"></script>
+<script src="assets/js/plugins/chartist.min.js"></script>
+<script src="assets/js/plugins/bootstrap-notify.js"></script>
+<script src="assets/js/light-bootstrap-dashboard.js?v=2.0.0 " type="text/javascript"></script>
+<script src="assets/js/demo.js"></script>
 
 </html>
 
