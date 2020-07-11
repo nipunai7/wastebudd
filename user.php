@@ -48,7 +48,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="./notifications.php">
                             <i class="nc-icon nc-bell-55"></i>
                             <p>Notifications</p>
                         </a>
