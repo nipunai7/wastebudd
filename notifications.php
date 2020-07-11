@@ -29,7 +29,7 @@
                     </a>
                 </div>
                 <ul class="nav">
-                    <li class="nav-link ">
+                    <li class="nav-item ">
                         <a class="nav-link" href="index.php">
                             <i class="nc-icon nc-chart-pie-35"></i>
                             <p>Dashboard</p>
