@@ -29,7 +29,7 @@
                     </a>
                 </div>
                 <ul class="nav">
-                    <li class="nav-item active">
+                    <li class="nav-link ">
                         <a class="nav-link" href="index.php">
                             <i class="nc-icon nc-chart-pie-35"></i>
                             <p>Dashboard</p>
@@ -48,7 +48,7 @@
                             <p>Location</p>
                         </a>
                     </li>
-                    <li>
+                    <li class= nav-item active>
                         <a class="nav-link" href="./notifications.php">
                             <i class="nc-icon nc-bell-55"></i>
                             <p>Notifications</p>
