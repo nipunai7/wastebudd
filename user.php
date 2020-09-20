@@ -199,7 +199,7 @@
                                 <div class="card-body">
                                     <div class="author">
                                         <a href="#">
-                                            <img class="avatar border-gray" src="" alt="...">
+                                            <img class="avatar border-gray" src="https://www.google.lk/imgres?imgurl=https%3A%2F%2Fmedia-exp1.licdn.com%2Fdms%2Fimage%2FC4D03AQG-nTZG8vnhZg%2Fprofile-displayphoto-shrink_200_200%2F0%3Fe%3D1603324800%26v%3Dbeta%26t%3DSv_Z7MtLccT3Tvts6lIMs6LLqmk6UWSNgdsgjLBvn0k&imgrefurl=https%3A%2F%2Flk.linkedin.com%2Fin%2Fruwanthi-perera-mit&tbnid=iwvVsemYd-bBxM&vet=12ahUKEwi1nq6--vbrAhXbDLcAHcObAsQQMygEegUIARCVAQ..i&docid=6jWyutNgrWInjM&w=200&h=200&q=ruwanthi%20perera&ved=2ahUKEwi1nq6--vbrAhXbDLcAHcObAsQQMygEegUIARCVAQ" alt="...">
                                             <h5 class="title">Ruwanthi Perera</h5>
                                         </a>
                                         <p class="description">
