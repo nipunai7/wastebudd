@@ -218,6 +218,7 @@
 <script src="assets/js/plugins/bootstrap-notify.js"></script>
 <script src="assets/js/light-bootstrap-dashboard.js?v=2.0.0 " type="text/javascript"></script>
 <script src="assets/js/demo.js"></script>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {
         
