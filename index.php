@@ -20,7 +20,7 @@
 
 <body>
     <div class="wrapper">
-        <div class="sidebar"  data-color = "#1E441E">
+        <div class="sidebar"  data-color = "blue" data-image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQA2OVeThkfkmGbgVl7HOQUGcCPhWgXDrnHWQ&usqp=CAU">
             
 
             <div class="sidebar-wrapper">
