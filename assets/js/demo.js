@@ -173,7 +173,7 @@ demo = {
             ]
         };
 
-        var optionsPreferences = {
+       window.onload = function () { var optionsPreferences = {
             donut: true,
             donutWidth: 40,
             total: 100,
@@ -181,10 +181,15 @@ demo = {
             axisX: {
                 showGrid: false
             }
-               animationEnabled: true,
+             animationEnabled: true,
+              data[{
             startAngle: 45,
+        }]
+            
        
         };
+        $("#chartContainer").CanvasJSChart(optionsPreferences);
+    }
 
         Chartist.Pie('#chartPreferences', dataPreferences, optionsPreferences);
 
