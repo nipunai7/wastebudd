@@ -20,7 +20,7 @@
 
 <body>
     <div class="wrapper">
-        <div class="sidebar"  data-color = "red">
+        <div class="sidebar"  data-color = "#111">
             
 
             <div class="sidebar-wrapper">
