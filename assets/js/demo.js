@@ -189,6 +189,8 @@ demo = {
         Chartist.Pie('#chartPreferences', {
             labels: ['53%', '36%', '11%'],
             series: [53, 36, 11]
+             animationEnabled: true,
+            startAngle: 45,
         });
 
 
@@ -199,8 +201,7 @@ demo = {
                 [67, 152, 143, 240, 287, 335, 435, 437, 539, 542, 544, 647],
                 [23, 113, 67, 108, 190, 239, 307, 308, 439, 410, 410, 509]
             ]
-            animationEnabled: true,
-            startAngle: 45,
+           
         };
 
         // var optionsSales = {
