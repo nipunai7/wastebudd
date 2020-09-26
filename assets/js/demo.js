@@ -188,6 +188,7 @@ demo = {
             
        
         };
+        $("#chartPreferences").CanvasJSChart(optionsPreferences);
     }
 
         Chartist.Pie('#chartPreferences', dataPreferences, optionsPreferences);
