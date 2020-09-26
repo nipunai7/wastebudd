@@ -162,7 +162,7 @@ demo = {
 
         var dailySalesChart = new Chartist.Line('#dailySalesChart', dataDailySalesChart, optionsDailySalesChart);
 
-        // lbd.startAnimationForLineChart(dailySalesChart);
+         lbd.startAnimationForLineChart(dailySalesChart);
     },
 
     initDashboardPageCharts: function() {
@@ -188,7 +188,6 @@ demo = {
             
        
         };
-        $("#chartContainer").CanvasJSChart(optionsPreferences);
     }
 
         Chartist.Pie('#chartPreferences', dataPreferences, optionsPreferences);
@@ -259,7 +258,7 @@ demo = {
 
         var chartHours = Chartist.Line('#chartHours', dataSales, optionsSales, responsiveSales);
 
-        // lbd.startAnimationForLineChart(chartHours);
+         lbd.startAnimationForLineChart(chartHours);
 
         var data = {
             labels: ['Jan', 'Feb', 'Mar', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
@@ -290,7 +289,7 @@ demo = {
 
         var chartActivity = Chartist.Bar('#chartActivity', data, options, responsiveOptions);
 
-        // lbd.startAnimationForBarChart(chartActivity);
+         lbd.startAnimationForBarChart(chartActivity);
 
         // /* ----------==========     Daily Sales Chart initialization    ==========---------- */
         //
@@ -378,24 +377,8 @@ demo = {
 
         
 
-     
-    showNotification: function(from, align) {
-        color = Math.floor((Math.random() * 4) + 1);
-
-        $.notify({
-            icon: "nc-icon nc-app",
-            message: "Welcome to <b>Light Bootstrap Dashboard</b> - a beautiful freebie for every web developer."
-
-        }, {
-            type: type[color],
-            timer: 8000,
-            placement: {
-                from: from,
-                align: align
-            }
-        });
-    }
-
+   
+   
 
 
 }
