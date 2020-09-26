@@ -20,7 +20,7 @@
 					<label class="remember-me"><input type="checkbox" name="">Remember me</label>
 					<a href="#">Forgot your password?</a>
 				</div>
-				<input class="btn" type="submit" name="" value="LOGIN">
+				<input class="btn" type="submit" name="" value="LOGIN" href="index.php">
 				<div class="options-02">
 					<p>Not Registered? &nbsp;<a href="#">Create an Account</a></p>
 				</div>
