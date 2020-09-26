@@ -176,12 +176,14 @@ demo = {
         var optionsPreferences = {
             donut: true,
             donutWidth: 40,
-            startAngle: 0,
             total: 100,
             showLabel: false,
             axisX: {
                 showGrid: false
             }
+               animationEnabled: true,
+            startAngle: 45,
+       
         };
 
         Chartist.Pie('#chartPreferences', dataPreferences, optionsPreferences);
@@ -189,8 +191,7 @@ demo = {
         Chartist.Pie('#chartPreferences', {
             labels: ['53%', '36%', '11%'],
             series: [53, 36, 11]
-             animationEnabled: true,
-            startAngle: 45,
+          
         });
 
 
