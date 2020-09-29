@@ -245,8 +245,89 @@ $("#chartPreferences").CanvasJSChart(options);
 
 }
 </script>
-</head>
-<body>
+
+window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	
+	axisY :{
+		includeZero: false,
+		
+	},
+	toolTip: {
+		shared: true
+	},
+	legend: {
+		fontSize: 13
+	},
+	data: [{
+		type: "splineArea",
+		showInLegend: true,
+		name: "Food Wastage",
+		yValueFormatString: "$#,##0",
+		xValueFormatString: "MMM YYYY",
+		dataPoints: [
+			{ x: new Date(2019, 2), y: 30000 },
+			{ x: new Date(2019, 3), y: 35000 },
+			{ x: new Date(2019, 4), y: 30000 },
+			{ x: new Date(2019, 5), y: 30400 },
+			{ x: new Date(2019, 6), y: 20900 },
+			{ x: new Date(2019, 7), y: 31000 },
+			{ x: new Date(2019, 8), y: 30200 },
+			{ x: new Date(2019, 9), y: 30000 },
+			{ x: new Date(2019, 10), y: 33000 },
+			{ x: new Date(2019, 11), y: 38000 },
+			{ x: new Date(2020, 0),  y: 38900 },
+			{ x: new Date(2020, 1),  y: 39000 }
+		]
+ 	},
+	
+ 	
+	{
+		type: "splineArea", 
+		showInLegend: true,
+		name: "Polythene",
+		yValueFormatString: "$#,##0",     
+		dataPoints: [
+			{ x: new Date(2019, 2), y: 10100 },
+			{ x: new Date(2019, 3), y: 12000 },
+			{ x: new Date(2019, 4), y: 14000 },
+			{ x: new Date(2019, 5), y: 12000 },
+			{ x: new Date(2019, 6), y: 9000 },
+			{ x: new Date(2019, 7), y: 9900 },
+			{ x: new Date(2019, 8), y: 9200 },
+			{ x: new Date(2019, 9), y: 8000 },
+			{ x: new Date(2019, 10), y: 14300 },
+			{ x: new Date(2019, 11), y: 12300 },
+			{ x: new Date(2020, 0), y: 8300 },
+			{ x: new Date(2020, 1), y: 6300 }
+		]
+ 	},
+	{
+		type: "splineArea", 
+		showInLegend: true,
+		yValueFormatString: "$#,##0",      
+		name: "Glass",
+		dataPoints: [
+			{ x: new Date(2019, 2), y: 3700 },
+			{ x: new Date(2019, 3), y: 2600 },
+			{ x: new Date(2019, 4), y: 2000 },
+			{ x: new Date(2019, 5), y: 3400 },
+			{ x: new Date(2019, 6), y: 2300 },
+			{ x: new Date(2019, 7), y: 4000 },
+			{ x: new Date(2019, 8), y: 3200 },
+			{ x: new Date(2019, 9), y: 5000 },
+			{ x: new Date(2019, 10), y: 3300 },
+			{ x: new Date(2019, 11), y: 2300 },
+			{ x: new Date(2020, 0), y: 2800 },
+			{ x: new Date(2020, 1), y: 4300 }
+		]
+	}]
+});
+$("#chartHours").CanvasJSChart(chart);
+
+}
 <div id="chartPreferences" style="height: 300px; width: 100%;"></div>
 <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
 <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
