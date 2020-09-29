@@ -220,33 +220,7 @@
 <script src="../assets/js/light-bootstrap-dashboard.js?v=2.0.0 " type="text/javascript"></script>
 <script src="../assets/js/demo.js"></script>
 
-       <script>
-           window.onload = function () {
-
-var options = {
-	
-	animationEnabled: true,
-	data: [{
-		type: "pie",
-		startAngle: 40, 
-		
-		
-		indexLabelFontSize: 16,
-		
-		dataPoints: [
-			{ y: 48, label: "Food Waste " },
-			{ y: 20, label: "Polythene " },
-			{ y: 32, label: "Glass " },
-		
-			
-		]
-	}]
-};
-$("#chartPreferences").CanvasJSChart(options);
-
-}
-</script>
-
+      
 
 <div id="chartPreferences" style="height: 300px; width: 100%;"></div>
 <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
