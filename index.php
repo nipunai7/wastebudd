@@ -121,7 +121,7 @@
                 </div>
             </nav>
         
-            <div class="content">
+                      <div class="content">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-4">
@@ -131,7 +131,7 @@
                                     <p class="card-category">Today Statistics</p>
                                 </div>
                                 <div class="card-body ">
-                                    <div id="chartPreferences" class="ct-chart ct-perfect-fourth"></div>
+                                    <div id="chartPreferences" class="ct-chart "></div>
                                     <div class="legend">
                                         <i class="fa fa-circle text-info"></i> Glass
                                         <i class="fa fa-circle text-danger"></i> Polythene
@@ -210,17 +210,14 @@
             
 </body>
 
-<script src="assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
-<script src="assets/js/core/popper.min.js" type="text/javascript"></script>
-<script src="assets/js/core/bootstrap.min.js" type="text/javascript"></script>
-<script src="assets/js/plugins/bootstrap-switch.js"></script>
-<script src="assets/js/plugins/chartist.min.js"></script>
-<script src="assets/js/plugins/bootstrap-notify.js"></script>
-<script src="assets/js/light-bootstrap-dashboard.js?v=2.0.0 " type="text/javascript"></script>
-<script src="assets/js/demo.js"></script>
-<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
- <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
-<script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+<script src="../assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
+<script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
+<script src="../assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+<script src="../assets/js/plugins/bootstrap-switch.js"></script>
+<script src="../assets/js/plugins/chartist.min.js"></script>
+<script src="../assets/js/plugins/bootstrap-notify.js"></script>
+<script src="../assets/js/light-bootstrap-dashboard.js?v=2.0.0 " type="text/javascript"></script>
+<script src="../assets/js/demo.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {
         
@@ -228,5 +225,7 @@
 
          });
 </script>
-        
+
 </html>
+
+
