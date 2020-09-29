@@ -220,7 +220,7 @@
 <script src="../assets/js/light-bootstrap-dashboard.js?v=2.0.0 " type="text/javascript"></script>
 <script src="../assets/js/demo.js"></script>
 <script type="text/javascript">
-   <script type="text/javascript">
+ 
     	$(document).ready(function(){
 
         	demo.initChartist();
