@@ -241,12 +241,6 @@ var options = {
 		]
 	}]
 };
-$("#chartPreferences").CanvasJSChart(options);
-
-}
-</script>
-
-window.onload = function () {
 
 var chart = new CanvasJS.Chart("chartHours", {
 	animationEnabled: true,
@@ -324,11 +318,12 @@ var chart = new CanvasJS.Chart("chartHours", {
 			{ x: new Date(2020, 1), y: 4300 }
 		]
 	}]
-});
-	    chart.render();
-
-
+});       $("#chartPreferences").CanvasJSChart(options);
+	  chart.render();
 }
+</script>
+
+
 <div id="chartHours" style="height: 300px; width: 100%;"></div>
 <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 <div id="chartPreferences" style="height: 300px; width: 100%;"></div>
