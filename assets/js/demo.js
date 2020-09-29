@@ -278,7 +278,6 @@ demo = {
                 }
             }]
         ];
-        
 
         var chartActivity = Chartist.Bar('#chartActivity', data, options, responsiveOptions);
 
