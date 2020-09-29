@@ -251,14 +251,6 @@ $("#chartPreferences").CanvasJSChart(options);
 <div id="chartPreferences" style="height: 300px; width: 100%;"></div>
 <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
 <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
-<script src="../assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
-<script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
-<script src="../assets/js/core/bootstrap.min.js" type="text/javascript"></script>
-<script src="../assets/js/plugins/bootstrap-switch.js"></script>
-<script src="../assets/js/plugins/chartist.min.js"></script>
-<script src="../assets/js/plugins/bootstrap-notify.js"></script>
-<script src="../assets/js/light-bootstrap-dashboard.js?v=2.0.0 " type="text/javascript"></script>
-	<script src="../assets/js/demo.js"></script>
 
 
 </html>
