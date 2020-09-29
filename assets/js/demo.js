@@ -151,7 +151,7 @@ demo = {
                 tension: 0
             }),
             low: 0,
-            high: 50, 
+            high: 50, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
             chartPadding: {
                 top: 0,
                 right: 0,
@@ -162,36 +162,35 @@ demo = {
 
         var dailySalesChart = new Chartist.Line('#dailySalesChart', dataDailySalesChart, optionsDailySalesChart);
 
-         lbd.startAnimationForLineChart(dailySalesChart);
+        // lbd.startAnimationForLineChart(dailySalesChart);
     },
 
-   window.onload = function () {
+    initDashboardPageCharts: function() {
 
-var options = {
-	
-	animationEnabled: true,
-	data: [{
-		type: "pie",
-		startAngle: 40,
-		
-		
-		indexLabelFontSize: 16,
-		
-		dataPoints: [
-			{ y: 48, label: "Food Waste" },
-			{ y: 20, label: "Polythene" },
-			{ y: 32, label: "Glass" },
-		
-			
-		]
-	}]
-};
-$("#chartPreferences").CanvasJSChart(options);
+        var dataPreferences = {
+            series: [
+                [25, 30, 20, 25]
+            ]
+        };
 
-}
-   
+        var optionsPreferences = {
+            donut: true,
+            donutWidth: 40,
+            startAngle: 0,
+            total: 100,
+            showLabel: false,
+            axisX: {
+                showGrid: false
+            }
+        };
 
-        
+        Chartist.Pie('#chartPreferences', dataPreferences, optionsPreferences);
+
+        Chartist.Pie('#chartPreferences', {
+            labels: ['53%', '36%', '11%'],
+            series: [53, 36, 11]
+        });
+
 
         var dataSales = {
             labels: ['9:00AM', '12:00AM', '3:00PM', '6:00PM', '9:00PM', '12:00PM', '3:00AM', '6:00AM'],
@@ -200,7 +199,6 @@ $("#chartPreferences").CanvasJSChart(options);
                 [67, 152, 143, 240, 287, 335, 435, 437, 539, 542, 544, 647],
                 [23, 113, 67, 108, 190, 239, 307, 308, 439, 410, 410, 509]
             ]
-           
         };
 
         // var optionsSales = {
@@ -252,7 +250,7 @@ $("#chartPreferences").CanvasJSChart(options);
 
         var chartHours = Chartist.Line('#chartHours', dataSales, optionsSales, responsiveSales);
 
-         lbd.startAnimationForLineChart(chartHours);
+        // lbd.startAnimationForLineChart(chartHours);
 
         var data = {
             labels: ['Jan', 'Feb', 'Mar', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
@@ -280,10 +278,11 @@ $("#chartPreferences").CanvasJSChart(options);
                 }
             }]
         ];
+        
 
         var chartActivity = Chartist.Bar('#chartActivity', data, options, responsiveOptions);
 
-         lbd.startAnimationForBarChart(chartActivity);
+        // lbd.startAnimationForBarChart(chartActivity);
 
         // /* ----------==========     Daily Sales Chart initialization    ==========---------- */
         //
@@ -365,14 +364,160 @@ $("#chartPreferences").CanvasJSChart(options);
         // //start animation for the Emails Subscription Chart
         // lbd.startAnimationForBarChart(emailsSubscriptionChart);
 
+    },
 
+    initGoogleMaps: function() {
+        var myLatlng = new google.maps.LatLng(40.748817, -73.985428);
+        var mapOptions = {
+            zoom: 13,
+            center: myLatlng,
+            scrollwheel: false, //we disable de scroll over the map, it is a really annoing when you scroll through page
+            styles: [{
+                "featureType": "water",
+                "elementType": "geometry",
+                "stylers": [{
+                    "color": "#e9e9e9"
+                }, {
+                    "lightness": 17
+                }]
+            }, {
+                "featureType": "landscape",
+                "elementType": "geometry",
+                "stylers": [{
+                    "color": "#f5f5f5"
+                }, {
+                    "lightness": 20
+                }]
+            }, {
+                "featureType": "road.highway",
+                "elementType": "geometry.fill",
+                "stylers": [{
+                    "color": "#ffffff"
+                }, {
+                    "lightness": 17
+                }]
+            }, {
+                "featureType": "road.highway",
+                "elementType": "geometry.stroke",
+                "stylers": [{
+                    "color": "#ffffff"
+                }, {
+                    "lightness": 29
+                }, {
+                    "weight": 0.2
+                }]
+            }, {
+                "featureType": "road.arterial",
+                "elementType": "geometry",
+                "stylers": [{
+                    "color": "#ffffff"
+                }, {
+                    "lightness": 18
+                }]
+            }, {
+                "featureType": "road.local",
+                "elementType": "geometry",
+                "stylers": [{
+                    "color": "#ffffff"
+                }, {
+                    "lightness": 16
+                }]
+            }, {
+                "featureType": "poi",
+                "elementType": "geometry",
+                "stylers": [{
+                    "color": "#f5f5f5"
+                }, {
+                    "lightness": 21
+                }]
+            }, {
+                "featureType": "poi.park",
+                "elementType": "geometry",
+                "stylers": [{
+                    "color": "#dedede"
+                }, {
+                    "lightness": 21
+                }]
+            }, {
+                "elementType": "labels.text.stroke",
+                "stylers": [{
+                    "visibility": "on"
+                }, {
+                    "color": "#ffffff"
+                }, {
+                    "lightness": 16
+                }]
+            }, {
+                "elementType": "labels.text.fill",
+                "stylers": [{
+                    "saturation": 36
+                }, {
+                    "color": "#333333"
+                }, {
+                    "lightness": 40
+                }]
+            }, {
+                "elementType": "labels.icon",
+                "stylers": [{
+                    "visibility": "off"
+                }]
+            }, {
+                "featureType": "transit",
+                "elementType": "geometry",
+                "stylers": [{
+                    "color": "#f2f2f2"
+                }, {
+                    "lightness": 19
+                }]
+            }, {
+                "featureType": "administrative",
+                "elementType": "geometry.fill",
+                "stylers": [{
+                    "color": "#fefefe"
+                }, {
+                    "lightness": 20
+                }]
+            }, {
+                "featureType": "administrative",
+                "elementType": "geometry.stroke",
+                "stylers": [{
+                    "color": "#fefefe"
+                }, {
+                    "lightness": 17
+                }, {
+                    "weight": 1.2
+                }]
+            }]
+        };
 
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
+        var marker = new google.maps.Marker({
+            position: myLatlng,
+            title: "Hello World!"
+        });
 
-        
+        // To add the marker to the map, call setMap();
+        marker.setMap(map);
+    },
 
-   
-   
+    showNotification: function(from, align) {
+        color = Math.floor((Math.random() * 4) + 1);
+
+        $.notify({
+            icon: "nc-icon nc-app",
+            message: "Welcome to <b>Light Bootstrap Dashboard</b> - a beautiful freebie for every web developer."
+
+        }, {
+            type: type[color],
+            timer: 8000,
+            placement: {
+                from: from,
+                align: align
+            }
+        });
+    }
+
 
 
 }
