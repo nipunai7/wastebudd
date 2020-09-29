@@ -222,9 +222,7 @@
 
       
 
-<div id="chartPreferences" style="height: 300px; width: 100%;"></div>
-<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
-<script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+
 
 
 </html>
