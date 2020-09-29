@@ -214,7 +214,6 @@
 <script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
 <script src="../assets/js/core/bootstrap.min.js" type="text/javascript"></script>
 <script src="../assets/js/plugins/bootstrap-switch.js"></script>
-<script src="../assets/js/plugins/chartist.min.js"></script>
 <script src="../assets/js/plugins/bootstrap-notify.js"></script>
 <script src="../assets/js/light-bootstrap-dashboard.js?v=2.0.0 " type="text/javascript"></script>
 <script src="../assets/js/demo.js"></script>
