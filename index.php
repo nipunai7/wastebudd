@@ -149,7 +149,7 @@
                             <div class="card ">
                                 <div class="card-header ">
                                     <h4 class="card-title">Behaviour Chart</h4>
-                                    <p class="card-category">Last Week Performance</p>
+                                    <p class="card-category">Last Months Performance</p>
                                 </div>
                                 <div class="card-body ">
                                     <div id="chartHours" class="ct-chart"></div>
