@@ -319,6 +319,54 @@ var chart = new CanvasJS.Chart("chartHours", {
 		]
 	}]
 });  
+	var chart = new CanvasJS.Chart("chartActivity", {
+	animationEnabled: true,
+		
+		
+	axisY: {
+		title: "kg's of garbage",
+		titleFontColor: "#4F81BC",
+		lineColor: "#4F81BC",
+		labelFontColor: "#4F81BC",
+		tickColor: "#4F81BC"
+	},
+	
+	toolTip: {
+		shared: true
+	},
+	legend: {
+		cursor:"pointer",
+		itemclick: toggleDataSeries
+	},
+	data: [{
+		type: "column",
+		legendText: " Bio-Degradable Waste",
+		showInLegend: true, 
+		dataPoints:[
+			{ label: "2020", y: 480.21 },
+			{ label: "2019", y: 302.25 },
+			{ label: "2018", y: 275.20 },
+			{ label: "2017", y: 158.77 },
+			{ label: "2016", y: 130 },
+			
+		]
+	},
+	{
+		type: "column",	
+		
+		legendText: "Non Bio-Degradable Waste",
+		axisYType: "secondary",
+		showInLegend: true,
+		dataPoints:[
+			{ label: "2020", y: 100.46 },
+			{ label: "2019", y: 75.27 },
+			{ label: "2018", y: 60.99 },
+			{ label: "2017", y: 50.45 },
+			{ label: "2016", y: 40.92 },
+			
+		]
+	}]
+});
 	
 
 	
@@ -327,7 +375,7 @@ var chart = new CanvasJS.Chart("chartHours", {
 	  chart.render();
 }
 </script>
-
+<div id="chartActivity" style="height: 300px; width: 100%;"></div>
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 <div id="chartHours" style="height: 300px; width: 100%;"></div>
 <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
