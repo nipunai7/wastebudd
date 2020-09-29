@@ -234,9 +234,9 @@ var options = {
 		indexLabelFontSize: 16,
 		
 		dataPoints: [
-			{ y: 48, label: "Food Waste" },
-			{ y: 20, label: "Polythene" },
-			{ y: 32, label: "Glass" },
+			{ y: 48, label: "Food Waste 48%" },
+			{ y: 20, label: "Polythene 20%" },
+			{ y: 32, label: "Glass 32%" },
 		
 			
 		]
