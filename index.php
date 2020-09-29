@@ -258,7 +258,7 @@ $("#chartPreferences").CanvasJSChart(options);
 <script src="../assets/js/plugins/chartist.min.js"></script>
 <script src="../assets/js/plugins/bootstrap-notify.js"></script>
 <script src="../assets/js/light-bootstrap-dashboard.js?v=2.0.0 " type="text/javascript"></script>
-<script src="../assets/js/demo.js"></scrip
+	<script src="../assets/js/demo.js"></script>
 
 
 </html>
