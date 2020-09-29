@@ -322,6 +322,7 @@ var chart = new CanvasJS.Chart("chartHours", {
 	var chart = new CanvasJS.Chart("chartActivity", {
 	animationEnabled: true,
 		
+		
 	axisY: {
 		title: "kg's of garbage",
 		titleFontColor: "#4F81BC",
@@ -383,7 +384,7 @@ function toggleDataSeries(e) {
 }
 </script>
 
-
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 <div id="chartHours" style="height: 300px; width: 100%;"></div>
 <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 <div id="chartPreferences" style="height: 300px; width: 100%;"></div>
