@@ -248,7 +248,7 @@ $("#chartPreferences").CanvasJSChart(options);
 
 window.onload = function () {
 
-var chart = new CanvasJS.Chart("chartContainer", {
+var chart = new CanvasJS.Chart("chartHours", {
 	animationEnabled: true,
 	
 	axisY :{
@@ -325,9 +325,12 @@ var chart = new CanvasJS.Chart("chartContainer", {
 		]
 	}]
 });
+	    chart.render();
 $("#chartHours").CanvasJSChart(chart);
 
 }
+<div id="chartHours" style="height: 300px; width: 100%;"></div>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 <div id="chartPreferences" style="height: 300px; width: 100%;"></div>
 <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
 <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
