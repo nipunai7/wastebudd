@@ -326,7 +326,7 @@ var chart = new CanvasJS.Chart("chartHours", {
 	}]
 });
 	    chart.render();
-$("#chartHours").CanvasJSChart(chart);
+
 
 }
 <div id="chartHours" style="height: 300px; width: 100%;"></div>
