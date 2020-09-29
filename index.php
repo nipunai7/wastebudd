@@ -6,21 +6,22 @@
 <head>
     <meta charset="utf-8" />
     
-    <link rel="icon"  href="https://img.icons8.com/dusk/2x/garbage-truck.png">
+   <link rel="icon"  href="https://img.icons8.com/dusk/2x/garbage-truck.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>Waste Management System</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
-   
+        
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
         
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="assets/css/light-bootstrap-dashboard.css?v=2.0.0 " rel="stylesheet" />
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../assets/css/light-bootstrap-dashboard.css?v=2.0.0 " rel="stylesheet" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     
 </head>
 
 <body>
     <div class="wrapper">
-        <div class="sidebar"  data-color = "blue" data-image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQA2OVeThkfkmGbgVl7HOQUGcCPhWgXDrnHWQ&usqp=CAU">
+        <div class="sidebar" data-image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQA2OVeThkfkmGbgVl7HOQUGcCPhWgXDrnHWQ&usqp=CAU" data-color = "#281A6C">
             
 
             <div class="sidebar-wrapper">
@@ -31,26 +32,26 @@
                 </div>
                 <ul class="nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.php">
+                        <a class="nav-link" href="dashboard.html">
                             <i class="nc-icon nc-chart-pie-35"></i>
                             <p>Dashboard</p>
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link" href="./user.php">
+                        <a class="nav-link" href="./user.html">
                             <i class="nc-icon nc-circle-09"></i>
                             <p>My Account</p>
                         </a>
                     </li>
                     
                     <li>
-                        <a class="nav-link" href="./maps.php">
+                        <a class="nav-link" href="./maps.html">
                             <i class="nc-icon nc-pin-3"></i>
                             <p>Location</p>
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link" href="./notifications.php">
+                        <a class="nav-link" href="./notifications.html">
                             <i class="nc-icon nc-bell-55"></i>
                             <p>Notifications</p>
                         </a>
@@ -87,7 +88,7 @@
                             <li class="nav-item">
                                 <a href="#" class="nav-link">
                                     <i class="nc-icon nc-zoom-split"></i>
-                                    <span class="d-lg-block">&nbsp;&nbsp;&nbsp;Search</span>
+                                    <span class="d-lg-block">&nbsp;Search</span>
                                 </a>
                             </li>
                         </ul>
@@ -106,7 +107,7 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="user.php">
+                                <a class="nav-link" href="user.html">
                                     <span class="no-icon"> 
                                         <button class="btn-outline-success btn-sm">Sign Up</button></span>
                                 </a>
@@ -121,7 +122,7 @@
                 </div>
             </nav>
         
-                      <div class="content">
+            <div class="content">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-4">
@@ -210,8 +211,7 @@
             
 </body>
 
-
-   <script src="../assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
+<script src="../assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
 <script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
 <script src="../assets/js/core/bootstrap.min.js" type="text/javascript"></script>
 <script src="../assets/js/plugins/bootstrap-switch.js"></script>
@@ -220,14 +220,11 @@
 <script src="../assets/js/light-bootstrap-dashboard.js?v=2.0.0 " type="text/javascript"></script>
 <script src="../assets/js/demo.js"></script>
 <script type="text/javascript">
- 
-    	$(document).ready(function(){
-
-        	demo.initChartist();
+    $(document).ready(function() {
+        
+        demo.initDashboardPageCharts();
 
          });
 </script>
 
 </html>
-
-
