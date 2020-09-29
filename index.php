@@ -136,7 +136,7 @@
                                     <div class="legend">
                                         <i class="fa fa-circle text-info"></i> Glass
                                         <i class="fa fa-circle text-danger"></i> Polythene
-                                        <i class="fa fa-circle text-warning"></i> Food wastage
+                                        <i class="fa fa-circle text-success"></i> Food wastage
                                     </div>
                                     <hr>
                                     <div class="stats">
