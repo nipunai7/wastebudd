@@ -368,7 +368,7 @@ var chart = new CanvasJS.Chart("chartHours", {
 	}]
 });
 	
-
+chart.render();
 	
 	
 	$("#chartPreferences").CanvasJSChart(options);
