@@ -174,13 +174,13 @@ body{
    animation-delay: 1s;
 }
 .waveMiddle {
-    background-size: 50% 120px;
+    background-size: 30% 120px;
 }
 .waveAnimation .waveMiddle {
     animation: move_wave 10s linear infinite;
 }
 .waveBottom {
-    background-size: 50% 100px;
+    background-size: 30% 100px;
 }
 .waveAnimation .waveBottom {
     animation: move_wave 15s linear infinite;
