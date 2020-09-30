@@ -20,10 +20,10 @@
   </div>
   <div class="waveWrapperInner bgBottom">
     <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
+	  
   </div>
-</div>
-
-		<div class="form">
+			
+<div class="form">
 			
 			<form class="login-form" action="logindb.php" method="post">
 				<i class="fas fa-user-circle"></i>
@@ -52,7 +52,10 @@
 				</div>
 			</form>
 			
-		</div>
+		</div>			
+</div>
+
+		
 		
 
 		<script type="text/javascript">
