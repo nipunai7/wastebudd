@@ -19,7 +19,8 @@ body{
 	z-index: 1;
 	font-family: "Poppins", sans-serif;
 	position:absolute;
-	margin-left:20%;
+	margin-left:60%;
+	margin-right:10%;
 	margin-top:20px;
 	width: 300px;
 	text-align: center;
