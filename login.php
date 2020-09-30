@@ -17,6 +17,7 @@
 			<form class="login-form" action="logindb.php" method="post">
 				<i class="fas fa-user-circle"></i>
 				<input class="user-input" type="text" name="" placeholder="Username" required>
+				<input class="user-input" type="email" name="" placeholder="Email Address" required>
 				<input class="user-input" type="password" name="" placeholder="Password" required>
 				<div class="options-01">
 					<label class="remember-me"><input type="checkbox" name="">Remember me</label>
