@@ -18,9 +18,8 @@ body{
 .form{
 	z-index: 1;
 	font-family: "Poppins", sans-serif;
-	position: relative;
-	left:250px;
-	opacity:1;
+	position: absolute;
+	
       
 	margin-top:20px;
 	width: 300px;
