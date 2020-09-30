@@ -18,9 +18,9 @@ body{
 .form{
 	z-index: 1;
 	font-family: "Poppins", sans-serif;
-	position: relative;
+	position: right;
 	opacity:1;
-        margin-left: 900px;
+      
 	margin-top:20px;
 	width: 300px;
 	text-align: center;
