@@ -259,7 +259,7 @@ var chart = new CanvasJS.Chart("chartHours", {
 		type: "splineArea",
 		showInLegend: true,
 		name: "Food Wastage",
-		yValueFormatString: "#,##0",
+		yValueFormatString: "#,##0kg",
 		xValueFormatString: "MMM YYYY",
 		dataPoints: [
 			{ x: new Date(2019, 2), y: 30000 },
@@ -282,7 +282,7 @@ var chart = new CanvasJS.Chart("chartHours", {
 		type: "splineArea", 
 		showInLegend: true,
 		name: "Polythene",
-		yValueFormatString: "#,##0",     
+		yValueFormatString: "#,##0kg",     
 		dataPoints: [
 			{ x: new Date(2019, 2), y: 10100 },
 			{ x: new Date(2019, 3), y: 12000 },
@@ -301,7 +301,7 @@ var chart = new CanvasJS.Chart("chartHours", {
 	{
 		type: "splineArea", 
 		showInLegend: true,
-		yValueFormatString: "#,##0",      
+		yValueFormatString: "#,##0kg",      
 		name: "Glass",
 		dataPoints: [
 			{ x: new Date(2019, 2), y: 3700 },
