@@ -20,7 +20,7 @@ body{
 .form{
 	z-index: 1;
 	font-family: "Poppins", sans-serif;
-	position: absolute;
+	position: left;
 	width: 320px;
 	text-align: center;
 }
