@@ -142,7 +142,7 @@ body{
     overflow: hidden;
     height: 100%;
     bottom: -1px;
-    background-image: linear-gradient(to top, #255C99 20%, #7EA3CC 80%);
+    background-image: linear-gradient(to top, #345995 20%, #03CEA4 80%);
 }
 .bgTop {
     z-index: 15;
