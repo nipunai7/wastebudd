@@ -34,6 +34,7 @@
 				<input class="user-input" type="text" name="" placeholder="Username" required>
 				<input class="user-input" type="email" name="" placeholder="Email Address" required>
 				<input class="user-input" type="password" name="" placeholder="Password" required>
+				<input class="user-input" type="password" name="" placeholder="Confirm Password" required>
 				<input class="btn" type="submit" name="" value="SIGN UP">
 				<div class="options-02">
 					<p>Already Registered? <a href="#">Sign In</a></p>
@@ -45,6 +46,7 @@
 
 		<script type="text/javascript">
 		$('.options-02 a').click(function(){
+			
 			$('form').animate({
 				height: "toggle", opacity: "toggle"
 			}, "slow");
