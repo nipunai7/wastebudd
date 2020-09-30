@@ -19,7 +19,7 @@ body{
 	z-index: 1;
 	font-family: "Poppins", sans-serif;
 	position: relative;
-	right:250px;
+	-right:250px;
 	opacity:1;
       
 	margin-top:20px;
