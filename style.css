@@ -165,7 +165,7 @@ body{
     transform-origin: center bottom;
 }
 .waveTop {
-    background-size: 50% 100px;
+    background-size: 80% 100px;
 }
 .waveAnimation .waveTop {
   animation: move-wave 3s;
