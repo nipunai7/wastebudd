@@ -22,6 +22,8 @@ body{
 	width: 320px;
 	text-align: center;
 	visibility:hidden;
+	display:none;
+	opacity:none;
 }
 
 .form i{
