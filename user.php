@@ -102,12 +102,7 @@
                                     
                                 </div>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="user.php">
-                                    <span class="no-icon"> 
-                                        <button class="btn-outline-success btn-sm">Sign Up</button></span>
-                                </a>
-                            </li>
+                            
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
                                     <span class="no-icon"><button class="btn-outline-danger btn-sm">Log Out</button></span>
