@@ -52,6 +52,12 @@
 		
 	
 
+
+	
+		
+  </div>
+  <div class="waveWrapperInner bgMiddle">
+	  
 <div id="id01" class="modal">
   
   <form class="modal-content animate" action="/action_page.php" method="post">
@@ -79,11 +85,6 @@
     </div>
   </form>
 </div>
-
-	
-		
-  </div>
-  <div class="waveWrapperInner bgMiddle">
 	  <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
     <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
   </div>
