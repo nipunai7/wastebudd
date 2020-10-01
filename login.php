@@ -79,17 +79,7 @@
   </form>
 </div>
 
-<script>
-// Get the modal
-var modal = document.getElementById('id01');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-</script>	
+	
 		
   </div>
   <div class="waveWrapperInner bgMiddle">
@@ -115,6 +105,17 @@ window.onclick = function(event) {
 		<script>
 		var form = document.getElementById('login');
 		</script>
+		<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
 
 	</body>
 </html>
