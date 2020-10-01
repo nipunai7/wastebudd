@@ -17,9 +17,9 @@
   <div class="waveWrapperInner bgTop">
     <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
 	
-		 <div class="form" id="login">
+		 <div class="modal" id="login">
 			
-			<form class="login-form" action="dblogin.php" method="post">
+			<form class="modal-content animate" action="dblogin.php" method="post">
 				<i class="fas fa-user-circle"></i>
 				<input class="user-input" type="text" name="" placeholder="Username" required>
 				<input class="user-input" type="email" name="" placeholder="Email Address" required>
