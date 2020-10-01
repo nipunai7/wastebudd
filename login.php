@@ -15,7 +15,7 @@
 		
 		<div class="waveWrapper waveAnimation">
   <div class="waveWrapperInner bgTop">
-	  <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+	  
     <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
 	
 		 <div class="form" >
@@ -84,6 +84,7 @@
 		
   </div>
   <div class="waveWrapperInner bgMiddle">
+	  <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
     <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
   </div>
   <div class="waveWrapperInner bgBottom">
