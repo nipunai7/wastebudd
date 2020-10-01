@@ -17,7 +17,7 @@
   <div class="waveWrapperInner bgTop">
     <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
 	
-		 <div class="modal" >
+		 <div class="form" >
 			
 			<form class="login form" action="dblogin.php" method="post">
 				<i class="fas fa-user-circle"></i>
