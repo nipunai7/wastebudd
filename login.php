@@ -43,10 +43,7 @@
     </div>
   </form>
 </div>
-	 
-    <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
-	
-		 <div class="form" >
+	 <div class="form" >
 			
 			<form class="login form" action="dblogin.php" method="post">
 				<i class="fas fa-user-circle"></i>
@@ -84,6 +81,9 @@
 	
 		
   </div>
+    <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
+	
+		 
   <div class="waveWrapperInner bgMiddle">
 	  
 
