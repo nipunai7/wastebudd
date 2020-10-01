@@ -72,6 +72,9 @@
 			}, "slow");
 		});
 		</script>
+		<script>
+		var form = document.getElementById('login');
+		</script>
 
 	</body>
 </html>
