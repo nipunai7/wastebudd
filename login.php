@@ -15,6 +15,7 @@
 		
 		<div class="waveWrapper waveAnimation">
   <div class="waveWrapperInner bgTop">
+	  <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
     <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
 	
 		 <div class="form" >
@@ -49,7 +50,7 @@
 			
 		</div>	
 		
-	<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+	
 
 <div id="id01" class="modal">
   
