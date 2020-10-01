@@ -21,7 +21,7 @@
 
 <body>
     <div class="wrapper">
-        <div class="sidebar" data-image ="Images/inco logo 2.png" data-color = "#03CEA4">
+        <div class="sidebar" data-image ="Images/inco logo 2.png" data-color = "blue">
             
 
             <div class="sidebar-wrapper">
@@ -62,7 +62,7 @@
         </div>
         <div class="main-panel">
             
-            <nav class="navbar navbar-expand-lg bg-light " color-on-scroll="500">
+            <nav class="navbar navbar-expand-lg bg-info " color-on-scroll="500">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#"> Dashboard </a>
                     <button href="" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
