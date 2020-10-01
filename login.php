@@ -15,12 +15,7 @@
 		
 		<div class="waveWrapper waveAnimation">
   <div class="waveWrapperInner bgTop">
-	  
-		
-		
-  </div>
-
-    <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
+	  <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
 				 <div class="form" >
 			
 			<form class="login form" action="dblogin.php" method="post">
@@ -53,6 +48,10 @@
 			
 		</div>	
 		 
+	  
+		 </div>
+
+    
   <div class="waveWrapperInner bgMiddle">
 	 
 		
