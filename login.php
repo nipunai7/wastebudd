@@ -49,8 +49,7 @@
 		</div>	
 		 
 	  
-		 </div>
-
+<
     
   <div class="waveWrapperInner bgMiddle">
 	 
