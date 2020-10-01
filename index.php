@@ -21,7 +21,7 @@
 
 <body>
     <div class="wrapper">
-        <div class="sidebar" data-image ="Images/inco logo 2.png" data-color = "blue">
+        <div class="sidebar" data-image ="Images/inco logo 2.png" data-color = "#03CEA4">
             
 
             <div class="sidebar-wrapper">
