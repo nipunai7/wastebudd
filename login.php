@@ -45,6 +45,7 @@
 					<p>Already Registered? <a href="#">Sign In</a></p>
 				</div>
 			</form>
+			 <button onclick="document.getElementById('login').style.display='block'" style="width:auto;">Login</button>
 			
 		</div>	
 		
@@ -60,7 +61,7 @@
   </div>
 				
 </div>
-		<button onclick="document.getElementById('login').style.display='block'" style="width:auto;">Login</button>
+		
 
 
 		<script type="text/javascript">
