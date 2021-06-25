@@ -177,9 +177,7 @@
 					
                                 </div>
                                 <div class="card-body ">
-                                    <iframe width="1000" height="500" 
-					src="https://app.powerbi.com/reportEmbed?reportId=591660dc-f423-4eb0-b4ec-dc698a7ea460&autoAuth=true&ctid=aa232db2-7a78-4414-a529-33db9124cba7&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXNvdXRoLWVhc3QtYXNpYS1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D" frameborder="0" allowFullScreen="true">
-					</iframe>
+                                    
                                 </div>
                                 <div class="card-footer ">
                                     <div class="legend">
@@ -187,7 +185,9 @@
                                         <i class="fa fa-circle text-danger"></i> Non Bio-degradable waste
                                     </div>
                                     <hr>
-                                    
+                                    <iframe width="1000" height="500" 
+					src="https://app.powerbi.com/reportEmbed?reportId=591660dc-f423-4eb0-b4ec-dc698a7ea460&autoAuth=true&ctid=aa232db2-7a78-4414-a529-33db9124cba7&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXNvdXRoLWVhc3QtYXNpYS1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D" frameborder="0" allowFullScreen="true">
+					</iframe>
                                 </div>
                             </div>
                         </div>
