@@ -125,6 +125,11 @@
             <div class="content">
                 <div class="container-fluid">
                     <div class="row">
+			    </div>
+				<iframe width="1340" height="650.25" 
+					src="https://app.powerbi.com/reportEmbed?reportId=40a1b408-f339-4479-98b1-87dbcef4e8be&autoAuth=true&ctid=84c31ca0-ac3b-4eae-ad11-519d80233e6f&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXdlc3QtdXMtcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D"
+					frameborder="0" allowFullScreen="true"></iframe>
+                        </div>
                         <div class="col-md-4">
                             <div class="card ">
                                 <div class="card-header ">
@@ -187,11 +192,7 @@
                                     <hr>
                                     
                                 </div>
-                            </div>
-				<iframe width="1340" height="650.25" 
-					src="https://app.powerbi.com/reportEmbed?reportId=40a1b408-f339-4479-98b1-87dbcef4e8be&autoAuth=true&ctid=84c31ca0-ac3b-4eae-ad11-519d80233e6f&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXdlc3QtdXMtcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D"
-					frameborder="0" allowFullScreen="true"></iframe>
-                        </div>
+                            
                         <div class="col-md-6">
                             <div class="card  card-tasks">
                                 <div class="card-header ">
