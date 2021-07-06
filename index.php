@@ -130,6 +130,7 @@
 					src="https://app.powerbi.com/reportEmbed?reportId=40a1b408-f339-4479-98b1-87dbcef4e8be&autoAuth=true&ctid=84c31ca0-ac3b-4eae-ad11-519d80233e6f&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXdlc3QtdXMtcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D"
 					frameborder="0" allowFullScreen="true"></iframe>
                         </div>
+									      <div class="row">
                         <div class="col-md-4">
                             <div class="card ">
                                 <div class="card-header ">
@@ -148,7 +149,8 @@
                                         <i class="fa fa-clock-o"></i> Last collected 2 hours ago
                                     </div>
                                 </div></div>
-				
+								
+								</div>
                         
                         <div class="col-md-8">
                             <div class="card ">
@@ -173,6 +175,7 @@
                             </div>
                         </div>
                     </div>
+								</div>					
                     <div class="row">
                         <div class="col-md-6">
                             <div class="card ">
