@@ -188,9 +188,9 @@
                                     
                                 </div>
                             </div>
-				<iframe width="1000" height="500" 
-					src="https://app.powerbi.com/reportEmbed?reportId=591660dc-f423-4eb0-b4ec-dc698a7ea460&autoAuth=true&ctid=aa232db2-7a78-4414-a529-33db9124cba7&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXNvdXRoLWVhc3QtYXNpYS1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D" frameborder="0" allowFullScreen="true">
-					</iframe>
+				<iframe width="1140" height="541.25" 
+					src="https://app.powerbi.com/reportEmbed?reportId=40a1b408-f339-4479-98b1-87dbcef4e8be&autoAuth=true&ctid=84c31ca0-ac3b-4eae-ad11-519d80233e6f&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXdlc3QtdXMtcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D"
+					frameborder="0" allowFullScreen="true"></iframe>
                         </div>
                         <div class="col-md-6">
                             <div class="card  card-tasks">
