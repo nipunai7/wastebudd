@@ -30,7 +30,7 @@
                 </div>
                 <ul class="nav">
                     <li class="nav-item active ">
-                        <a class="nav-link" href="index.php">
+                        <a class="nav-link" href="./index.php">
                             <i class="nc-icon nc-chart-pie-35"></i>
                             <p>Dashboard</p>
                         </a>
@@ -62,7 +62,7 @@
             
             <nav class="navbar navbar-expand-lg bg-light " color-on-scroll="500">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#"> Dashboard </a>
+                    <a class="navbar-brand" href="./index.php"> Dashboard </a>
                     <button href="" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-bar burger-lines"></span>
                         <span class="navbar-toggler-bar burger-lines"></span>
