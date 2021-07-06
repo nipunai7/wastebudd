@@ -42,7 +42,7 @@
                     
                     
                     <li>
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="./location.php">
                             <i class="nc-icon nc-pin-3"></i>
                             <p>Location</p>
                         </a>
